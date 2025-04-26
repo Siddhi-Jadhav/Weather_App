@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Widget</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="weather-widget">
+    <!-- Search bar -->
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Search city…" />
+      <button id="searchBtn">🔍</button>
+    </div>
+
+    <!-- Current weather -->
+    <div class="current">
+      <div class="indicator"></div>
+      <div class="temp" id="temp">--<span>°C</span></div>
+      <p id="cityName">City, Country</p>
+    </div>
+
+    <!-- Humidity display -->
+    <div class="humidity-section">
+      <div class="humidity">
+        <div class="humidity-name">Humidity</div>
+        <div class="humidity-value" id="humDay1">--<span>%</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
