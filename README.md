@@ -6,8 +6,8 @@ A simple and beautiful web-based weather application where users can search any 
 
 ## 📌 Overview
 
-The Weather App allows users to enter a city name and fetch real-time weather data using the OpenWeatherMap API.
-It displays the temperature in Celsius, shows humidity, and applies a dynamic background effect inside a stylish frosted-glass weather card.
+**The Weather App allows users to enter a city name and fetch real-time weather data using the OpenWeatherMap API.
+It displays the temperature in Celsius, shows humidity, and applies a dynamic background effect inside a stylish frosted-glass weather card.**
 ---
 
 ## ✨ Features
